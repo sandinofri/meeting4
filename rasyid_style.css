@@ -1,0 +1,72 @@
+/* nurfaizzi rasyid */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   }
+   .container {
+     display: grid;
+     grid-template-columns: repeat(8,1fr);
+     padding: 20px 0px 0px 20px;
+   
+     position: relative;
+   }
+ 
+   .card {
+     display: grid;
+     width: 100%;
+     height: auto;
+     padding: 0px 0px 0px 0px;
+     border-radius: 15px;
+     box-shadow: 0 10px 10px rgba(0,0,0,.1);
+     background-color: white;
+ 
+   }
+ 
+ .card:hover{
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+     box-shadow: 20px;
+   }
+ 
+ 
+   .head-card{
+     width: 578px;
+     height: 372px;
+   }
+   
+   .head-card img1{
+     width: 578px;
+     height: auto;
+     object-fit: cover;
+   }
+ 
+   .body-card{
+     padding : 8px 16px 16px 16px;
+   }
+ 
+ h1{
+     padding: 0px 0px 0px 0px;
+     margin-top: 0px;
+   }
+ 
+ p{
+     padding: 10px 0px 35px 0px;
+     font-size: 18px;
+   }
+ 
+   a{
+     color: blue;
+     text-decoration: none;
+     font-size: 18px;
+     padding: 10px 0px 90px 0px;
+   }
+ 
+   .body-card svg {
+     color: blue;
+     width: 31px;
+     position: absolute;
+     bottom: 7px;
+     padding: 40px 40px 5px 2px;
+   }
